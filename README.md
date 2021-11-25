@@ -22,4 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-complete ruby course
+complete ruby on rail course
