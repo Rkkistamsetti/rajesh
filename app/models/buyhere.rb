@@ -1,0 +1,2 @@
+class Buyhere < ApplicationRecord
+end

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Buyheres</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @buyheres.each do |buyhere| %>
+      <tr>
+        <td><%= link_to 'Show', buyhere %></td>
+        <td><%= link_to 'Edit', edit_buyhere_path(buyhere) %></td>
+        <td><%= link_to 'Destroy', buyhere, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Buyhere', new_buyhere_path %>
