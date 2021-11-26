@@ -25,3 +25,4 @@ Things you may want to cover:
 complete ruby on rail course
 
 Deployment heroku application
+make application to start
